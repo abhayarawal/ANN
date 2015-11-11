@@ -46,7 +46,7 @@
 	(for [_ (take r (range))] (for [_ (take c (range))] (/ (rand 10) 10))))
 
 (defn async-fetch-set
-	"Creates and returns a channel lazily accessed random row. Channel is closed once all dump files are read. List if shuffled before reading"
+	"Creates and returns a channel with lazily accessed random row. Channel is closed once all dump files are read. List is shuffled before reading"
 	[]
 	(let [ch (chan)]
 		(go
