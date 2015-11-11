@@ -14,4 +14,6 @@ Download from https://github.com/awesomegamer/ANN.git.
     or (to start with REPL)
     $ lein repl
 
+Docs at http://awesomegamer.github.io/ANN/ann.core.html
+
 Copyright © 2015 Abhaya Rawal
